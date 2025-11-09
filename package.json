@@ -1,0 +1,16 @@
+{
+  "name": "@modsynth/docs-site",
+  "version": "0.1.0",
+  "description": "Modsynth documentation site (Docusaurus)",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve"
+  },
+  "author": "Modsynth Team",
+  "license": "MIT",
+  "dependencies": {
+    "@docusaurus/core": "^3.0.0",
+    "@docusaurus/preset-classic": "^3.0.0"
+  }
+}
