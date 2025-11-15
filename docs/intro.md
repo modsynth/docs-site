@@ -36,14 +36,29 @@ go get github.com/modsynth/cache-module@v0.1.0
 ### Frontend (TypeScript/React)
 
 ```bash
-# UI Components
-npm install @modsynth/ui-components@0.1.0
+# UI Components (v0.2.0 - Enhanced!)
+npm install @modsynth/ui-components@0.2.0
+# ✨ New: Card, Spinner components, cn/variant utilities
 
-# API Client
-npm install @modsynth/api-client@0.1.0
+# API Client (v0.2.0 - Enhanced!)
+npm install @modsynth/api-client@0.2.0
+# ✨ New: React hooks (useApiClient, useApiRequest), retry logic
 
-# State Management
-npm install @modsynth/state-management@0.1.0
+# State Management (v0.2.0 - Enhanced!)
+npm install @modsynth/state-management@0.2.0
+# ✨ New: createTypedHooks, createAppAsyncThunk helpers
+
+# Form Validation (v0.2.0 - Enhanced!)
+npm install @modsynth/form-validation@0.2.0
+# ✨ New: Common schemas (email, password, login, register)
+
+# Authentication (v0.2.0 - Enhanced!)
+npm install @modsynth/auth-client@0.2.0
+# ✨ New: JWT utilities, tokenStorage
+
+# Routing (v0.2.0 - Enhanced!)
+npm install @modsynth/routing@0.2.0
+# ✨ New: ProtectedRoute, navigation hooks
 ```
 
 ### Production Templates
@@ -68,14 +83,19 @@ docker-compose up
 - **monitoring-module** - Prometheus metrics
 - And 5 more...
 
-### Frontend Modules (TypeScript/React)
-- **ui-components** - Tailwind CSS components
-- **api-client** - Axios REST client
-- **state-management** - Redux Toolkit
-- **auth-client** - Authentication client
-- **routing** - React Router
-- **form-validation** - React Hook Form + Zod
-- And 7 more...
+### Frontend Modules (TypeScript/React) - v0.2.0 Enhanced!
+- **ui-components** - Tailwind CSS components, Card, Spinner, utilities
+- **api-client** - Axios REST client, React hooks, retry logic
+- **state-management** - Redux Toolkit, typed hooks, async thunk helpers
+- **auth-client** - Authentication client, JWT utilities, token storage
+- **routing** - React Router, ProtectedRoute, navigation hooks
+- **form-validation** - React Hook Form + Zod, common schemas
+- **error-handling** - Error Boundary, ErrorLogger
+- **websocket-client** - WebSocket with auto-reconnect, React hook
+- **i18n** - i18next, formatters, language sync
+- **chart-components** - Chart.js with themes
+- **table-components** - TanStack Table, CSV export, pagination
+- **analytics-client** - Google Analytics, useAnalytics hook
 
 ### Infrastructure
 - **shared-configs** - ESLint, Prettier, TypeScript configs, GitHub Actions, Testing
@@ -96,10 +116,12 @@ Each includes Docker, CI/CD, monitoring, and deployment guides.
 ## Project Stats
 
 - 📦 **31 Modules** (96.9% complete)
-- ⭐ **v0.1.0** - Stable release
+- ⭐ **Latest: v0.2.0** - Enhanced frontend modules (12개)
+- 🎯 **v0.1.0** - Stable backend modules (12개)
 - 🧪 **Test Coverage** - 97.1% average (10 core modules)
 - 📖 **100% Documented**
 - 🔄 **CI/CD Ready** - 31/31 modules (100%)
+- 📦 **npm Published** - 12 packages @0.2.0, 1 package @0.1.0
 
 ## Getting Started
 
@@ -110,8 +132,33 @@ Choose your path:
 - 💡 **[Templates](./templates)** - Use production templates
 - 🛠️ **[CI/CD Setup](./ci-cd)** - Automate your workflow
 
+## Latest Updates 🎉
+
+### v0.2.0 (2025-11-12) - Enhanced Frontend Modules
+
+**12 enhanced modules** with production-level utilities:
+- 🎨 **UI Components**: Card, Spinner, utility functions
+- 🔄 **API Client**: React hooks, automatic retry with exponential backoff
+- 🏪 **State Management**: Type-safe hooks factory, async thunk helpers
+- ✅ **Form Validation**: Common schemas (email, password, login, register)
+- 🔐 **Auth Client**: JWT utilities, token storage
+- 🛡️ **Error Handling**: ErrorLogger for client-side logging
+- 🧭 **Routing**: ProtectedRoute, navigation hooks
+- 🔌 **WebSocket**: Auto-reconnect, useWebSocket hook
+- 🌐 **i18n**: initI18n, formatters, language sync
+- 📊 **Charts**: Themes (default, dark)
+- 📋 **Tables**: CSV export, pagination helpers
+- 📈 **Analytics**: useAnalytics hook
+
+**Try it now**:
+```bash
+npm install @modsynth/ui-components@0.2.0
+npm install @modsynth/api-client@0.2.0
+```
+
 ## Community
 
 - **GitHub**: [github.com/modsynth](https://github.com/modsynth)
+- **npm**: [@modsynth](https://www.npmjs.com/org/modsynth)
 - **Issues**: [Report bugs](https://github.com/modsynth/docs-dev/issues)
 - **Discussions**: [Ask questions](https://github.com/orgs/modsynth/discussions)
